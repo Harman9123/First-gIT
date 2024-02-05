@@ -2,6 +2,7 @@
 <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnToast"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
@@ -47,5 +48,11 @@
         android:layout_height="823dp"
         android:rotationX="-39"
         tools:srcCompat="@tools:sample/avatars" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="315dp"
+        android:layout_height="788dp"
+        android:text="Switch" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
